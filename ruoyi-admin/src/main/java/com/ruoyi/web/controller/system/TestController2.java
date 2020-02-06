@@ -25,7 +25,7 @@ public class TestController2 extends BaseController{
     }
 
     @ApiOperation("获取用户详细")
-    @GetMapping("/11")
+    @GetMapping("/2")
     @Log(title = "用户管理", businessType = BusinessType.DELETE)
     @ApiImplicitParam(name = "userId", value = "用户ID", required = true, dataType = "int", paramType = "path")
     public String index2(){
